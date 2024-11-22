@@ -58,11 +58,3 @@ ImageIQ is a Telegram bot service that processes images of multiple-choice quest
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to [ch1rag.eth](https://github.com/chiragbadhe) for the initial development of this bot.
