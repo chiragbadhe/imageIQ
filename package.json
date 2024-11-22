@@ -1,0 +1,37 @@
+{
+  "name": "ts-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot created with Typescript and TypeOrm",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "yarn build && node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragbadhe/imageIQ.git"
+  },
+  "author": "Chirag Badhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiragbadhe/imageIQ/issues"
+  },
+  "homepage": "https://github.com/chiragbadhe/imageIQ#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.63.0",
+    "openai": "^4.73.0",
+    "telegraf": "^4.16.3",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.9.1",
+    "@types/node-telegram-bot-api": "^0.61.8",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
